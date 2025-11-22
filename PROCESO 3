@@ -1,0 +1,20 @@
+SubProceso factorial(n)
+	definir i,resultado  Como entero
+	resultado=1 
+	para i= 1 hasta n con paso 1 hacer
+		resultado= i*resultado
+		
+	FinPara
+	escribir "el valor del factorial ",n,"es:", resultado
+	
+	
+FinSubProceso
+
+algoritmo principal
+	definir n como entero
+	escribir "programa para calculo de factoriales"
+	escribir "ingrese un numero para calcular su factorial"
+	leer n
+	factorial(n)
+	
+FinAlgoritmo
