@@ -1,0 +1,25 @@
+Funcion prom <- promedio(a, b, c)
+		Definir prom Como Real
+		prom = (a + b + c) / 3
+FinFuncion
+
+
+Algoritmo principal
+    Definir x, ye, z, r Como Real
+	
+    Escribir "Cálculo del promedio de tres números"
+	
+    Escribir "Ingrese el primer número:"
+    Leer x
+	
+    Escribir "Ingrese el segundo número:"
+    Leer ye
+	
+    Escribir "Ingrese el tercer número:"
+    Leer z
+	
+    r = promedio(x, ye, z)
+	
+    Escribir "El promedio es: ", r
+	
+FinAlgoritmo
