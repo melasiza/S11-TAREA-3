@@ -1,0 +1,13 @@
+funcion area= calcularareadeuntriangulo(base, altura)
+	area= base*altura/2
+FinFuncion
+Algoritmo triangulo
+	definir base, altura, area Como Real
+	escribir "ingrese la base"
+	leer base
+	escribir "ingrese la altura"
+	leer altura
+	area= calcularareadeuntriangulo(base, altura)
+	escribir "el area de un triangulo es:", area
+	
+FinAlgoritmo
