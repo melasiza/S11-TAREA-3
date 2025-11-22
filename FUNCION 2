@@ -1,0 +1,30 @@
+funcion resultado=esprimo(n)
+	definir i Como Entero
+	definir divisibl Como Logico
+	si n<2 entonces 
+		resultado=Falso
+	SiNo
+		divisibl=Falso
+		para i=2 hasta n-1
+			si n % i=0 Entonces
+				divisibl= verdadero
+			FinSi
+		FinPara
+		si divisibl entonces 
+			resultado=Falso
+		SiNo
+			resulatado= Verdadero
+		FinSi
+	FinSi
+FinFuncion
+Algoritmo primo
+	definir num Como Entero
+	escribir "ingrese un numero"
+	leer num
+	si esprimo(num) entonces 
+		escribir "es primo"
+	sino 
+		escribir "no es primo"
+	FinSi
+FinAlgoritmo
+
